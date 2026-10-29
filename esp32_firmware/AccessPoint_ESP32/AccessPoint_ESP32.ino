@@ -107,14 +107,14 @@
 #include <ESP32Servo.h>
 
 // ============== CONFIGURAÇÕES (EDITE AQUI) ==============
-const char* WIFI_SSID     = "Valdeci";
-const char* WIFI_PASSWORD = "valdeci518481";
+const char* WIFI_SSID     = "TCC";
+const char* WIFI_PASSWORD = "capolarbr23";
 
 // IP local do computador rodando o XAMPP (descubra com "ipconfig" no
 // Windows, procure por "Endereço IPv4"). O ESP32 e o PC precisam estar
 // na mesma rede Wi-Fi. Não precisa mais configurar DEVICE_ID/DEVICE_NAME
 // aqui - o ESP32 se registra sozinho pelo MAC na primeira conexão.
-const char* SERVER_HOST   = "192.168.2.110";
+const char* SERVER_HOST   = "10.112.219.150";
 const int   SERVER_PORT   = 80;
 
 // Endereço I2C do LCD - a maioria dos módulos usa 0x27, alguns usam 0x3F.

@@ -271,7 +271,7 @@ if ($isEditing && $editCard) {
                                 <button type="button" id="writeStartBtn" class="btn-small btn-edit" <?php echo empty($online_devices) ? 'disabled' : ''; ?>><?php echo icon('lock'); ?>Gravar no cartão</button>
                                 <button type="button" id="writeCancelBtn" class="btn-small btn-danger" style="display:none;"><?php echo icon('x'); ?>Cancelar</button>
                             </div>
-                            <div id="writeStatus" class="enroll-status">Requer UID de 8 caracteres hex e um cartão do tipo "mágico" (Gen1A/Gen2/CUID).</div>
+                            <div id="writeStatus" class="enroll-status">Requer UID de 8 caracteres hex e um cartão do tipo (Gen1A/Gen2/CUID).</div>
                         </div>
                     </div>
                     <div class="input-group"><label>Nome do Portador *</label><input type="text" name="holder_name" value="<?php echo $isEditing ? htmlspecialchars($editCard['holder_name']) : ''; ?>" required></div>
